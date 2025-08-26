@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+}
+form{
+    max-width: 300px;
+    margin: auto;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    box-shadow: 12px 12px 10px grey;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+
+button{
+    background-color: rgb(249, 79, 79);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+#celsius, #fahrenheit{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#temperatureInput{
+    font-size: 4em;
+    max-width: 100px;
+    text-align: center;
+}
+
+p{
+    font-size: 1.2em;
+    color: rgb(98, 154, 15);
+    font-style: italic;
+}

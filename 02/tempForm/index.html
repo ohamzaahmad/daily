@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Measurement</title>
+</head>
+<body>
+    <form action="post">
+        <h1>Temperature</h1>
+        <input type="number" id="temperatureInput" value="0"><br>
+        <input type="radio" id="celsius" name="unit" value="">C to F <br>
+        <input type="radio" id="fahrenheit" name="unit" value="">F to C<br>
+        <button type="button" id="submit" onclick="convert()">Submit</button>
+        <p id="result"></p>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

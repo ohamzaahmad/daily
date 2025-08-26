@@ -1,0 +1,32 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    background-color: lightblue;
+}
+
+#container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    padding-top: 20px;
+    max-width: 350px;
+    height: 500px;
+}
+
+button{
+    padding: 5px 30px;
+    font-size: medium;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: lightgray;
+}
+#diceResult{
+    margin-top: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+}
